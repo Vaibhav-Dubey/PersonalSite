@@ -1,7 +1,100 @@
+
 {% load static %}
 
-<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vaibhav Dubey</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/slackProf.jpg' %}" >
+					<hr>
+					<h4>Hi I'm Vaibhav</h4>
+					<p>I love coding, doing research and collaborating</p>
+				</div>
+			</div>
 
-<h4>Hello world</h4>
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>About me</h4>
+					<hr>
+					<p>Hello World !</p>
 
-<img src ="{% static 'images/slackProf.jpg'%}" >
+					<p>I am a trained full stack MERN developer with expertise in nodejs. Django and Flask are some python frameworks that I have dabbled in every now and then.</p>
+
+					<p>I have had good opportunities to work both individually and as a part of a team on interactive full stack projects in the industry along with being an avid practitioner of agile methodologies.</p>
+
+					<!-- <ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul> -->
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Senior Software Engineer.</p>
+					<p>Designed, built and managed a lab management system as a sole developer. System supported thousands of customers with a UI for Lab Admins and a customer dashboard.</p>
+					</div>
+			</div>
+            <div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Internship Learnings</h5>
+					<hr>
+					<p>Trainee backend Developer</p>
+					<p>Initially worked on some plugins in PHP and later on worked on the Django Framework to build a couple of web apps. In addition to this, I also developed some python scripts and web scrapers.</p>
+					</div>
+			</div>
+
+			<div class="col-md-12">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, HTML/CSS, JavaScript/Jquery, React, Postgres, AWS and APIs such as google maps, JavaScript charts and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+					<p>PS: Working on Node JS, Mongo DB and Machine Learning.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>After almost two years of supporting my system at the lab I’m ready to learn something new. I'll collaborating and sharing my experience with others on my blog (SayHelloWorld.co) & youtube channel.</p>
+				<p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
