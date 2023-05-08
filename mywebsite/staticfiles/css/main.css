@@ -1,5 +1,28 @@
-body{
-	background-color:#F8F8F8!important;
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#particles-js
+{
+	width: 100%;
+	height: 100%;
+	
+}
+h1
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 80px;
+	color: white;
+}
+body{ 
+	background-color:black !important;
+	height: 100%;
 }
 
 #profile-wrapper{
